@@ -16,6 +16,7 @@
 		8CF01B772935B63E0061ED2F /* iOS_Fitness_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF01B762935B63E0061ED2F /* iOS_Fitness_AppTests.swift */; };
 		8CF01B812935B63E0061ED2F /* iOS_Fitness_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF01B802935B63E0061ED2F /* iOS_Fitness_AppUITests.swift */; };
 		8CF01B832935B63E0061ED2F /* iOS_Fitness_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF01B822935B63E0061ED2F /* iOS_Fitness_AppUITestsLaunchTests.swift */; };
+		8CF01B932935BAD20061ED2F /* Excerise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF01B922935BAD20061ED2F /* Excerise.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8CF01B7C2935B63E0061ED2F /* iOS_Fitness_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Fitness_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF01B802935B63E0061ED2F /* iOS_Fitness_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Fitness_AppUITests.swift; sourceTree = "<group>"; };
 		8CF01B822935B63E0061ED2F /* iOS_Fitness_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Fitness_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8CF01B922935BAD20061ED2F /* Excerise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excerise.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +103,8 @@
 			children = (
 				8CF01B5F2935B63D0061ED2F /* AppDelegate.swift */,
 				8CF01B612935B63D0061ED2F /* SceneDelegate.swift */,
-				8CF01B902935B69A0061ED2F /* Model */,
+				8CF01B912935BA980061ED2F /* Model */,
+				8CF01B902935B69A0061ED2F /* View */,
 				8CF01B632935B63D0061ED2F /* ViewController.swift */,
 				8CF01B682935B63E0061ED2F /* Assets.xcassets */,
 				8CF01B6A2935B63E0061ED2F /* LaunchScreen.storyboard */,
@@ -127,10 +130,18 @@
 			path = iOS_Fitness_AppUITests;
 			sourceTree = "<group>";
 		};
-		8CF01B902935B69A0061ED2F /* Model */ = {
+		8CF01B902935B69A0061ED2F /* View */ = {
 			isa = PBXGroup;
 			children = (
 				8CF01B652935B63D0061ED2F /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8CF01B912935BA980061ED2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8CF01B922935BAD20061ED2F /* Excerise.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -267,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CF01B642935B63D0061ED2F /* ViewController.swift in Sources */,
+				8CF01B932935BAD20061ED2F /* Excerise.swift in Sources */,
 				8CF01B602935B63D0061ED2F /* AppDelegate.swift in Sources */,
 				8CF01B622935B63D0061ED2F /* SceneDelegate.swift in Sources */,
 			);
